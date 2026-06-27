@@ -10,6 +10,7 @@ venv/
 
 # Environment Variables
 .env
+*.env
 
 # VS Code
 .vscode/
@@ -19,3 +20,12 @@ venv/
 
 # Logs
 *.log
+
+# Python caches
+.pytest_cache/
+.mypy_cache/
+
+# Build files
+build/
+dist/
+*.egg-info/
